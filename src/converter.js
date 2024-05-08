@@ -8,7 +8,7 @@ function WeightConverter(measurement, val) {
     result1 = (val * 16).toFixed(2) + " ounces";
     result2 = (val / 2000).toFixed(2) + " tons";
   } else if (measurement === "tons") {
-    result1 = (val * 200).toFixed(2) + " pounds";
+    result1 = (val * 2000).toFixed(2) + " pounds";
     result2 = (val * 32000).toFixed(2) + " ounces";
   } else {
     return "wrong input";
